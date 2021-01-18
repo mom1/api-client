@@ -7,7 +7,6 @@ from apiclient.authentication_methods import (
 )
 from apiclient.client import APIClient
 from apiclient.decorates import endpoint
-from apiclient.json import marshal_request, unmarshal_response
 from apiclient.paginators import paginated
 from apiclient.request_formatters import JsonRequestFormatter
 from apiclient.response_handlers import (
